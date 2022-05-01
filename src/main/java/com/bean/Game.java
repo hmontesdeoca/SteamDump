@@ -20,8 +20,8 @@ public class Game {
         this.name = name;
     }
 
-    public double getHours() {
-        return hours;
+    public Long getHours() {
+        return (Long) Math.round(hours);
     }
 
     public void setHours(double hours) {
