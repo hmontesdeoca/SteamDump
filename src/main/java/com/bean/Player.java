@@ -63,7 +63,10 @@ public class Player {
     {
         this.games = games;
     }
-
+    
+    public Map<String, Game> getGames() {
+    	return this.games;
+    }
     @Override
     public String toString(){
         String res = "Name: " + name + "\n" +
